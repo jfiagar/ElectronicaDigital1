@@ -1,0 +1,2 @@
+vhdtdtfi -lib work {/home/juan/Documentos/Electronica DIgital/sseq/sseq/flipflopD.v} -lang verilog -prj sseq -o flipflopD.spl -module flipflopD -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e flipflopD.spl {/home/juan/Documentos/Electronica DIgital/sseq/sseq/flipflopD.sym} 

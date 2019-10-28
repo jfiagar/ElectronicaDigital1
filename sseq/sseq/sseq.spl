@@ -1,0 +1,10 @@
+[Inputs]
+X
+Y
+clk
+[Outputs]
+Z
+[BiDir]
+[ATTRIBUTES]
+VeriModel sseq
+

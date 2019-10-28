@@ -1,0 +1,5 @@
+verilog work "sum1bcc.v"
+verilog work "flipflopD.v"
+verilog work "sseq.v"
+vhdl work "ssepasjfsdklfaddas.vhd"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,3 @@
+verilog work "sum1bcc.v"
+verilog work "flipflopD.v"
+verilog work "sseq.v"

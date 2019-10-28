@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/juan/Documentos/Electronica DIgital/cuatrodisplay/cuatrodisplay/cautrodisplay.ncd
+OUTFILE=/home/juan/Documentos/Electronica DIgital/cuatrodisplay/cuatrodisplay/cautrodisplay.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=/home/juan/Documentos/Electronica DIgital/cuatrodisplay/cuatrodisplay
+LICENSE=WebPack
+USER_INFO=211793471_0_0_937

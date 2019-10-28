@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/juan/Documentos/Electronica DIgital/Sum4/Sum4b/Sum4b.ncd
+OUTFILE=/home/juan/Documentos/Electronica DIgital/Sum4/Sum4b/Sum4b.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=/home/juan/Documentos/Electronica DIgital/Sum4/Sum4b
+LICENSE=WebPack
+USER_INFO=211793471_0_0_937

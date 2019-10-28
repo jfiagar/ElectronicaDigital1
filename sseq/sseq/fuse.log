@@ -1,0 +1,31 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /home/juan/Documentos/Electronica DIgital/sseq/sseq/ssepasjfsdklfaddas_isim_beh.exe -prj /home/juan/Documentos/Electronica DIgital/sseq/sseq/ssepasjfsdklfaddas_beh.prj work.ssepasjfsdklfaddas work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/juan/Documentos/Electronica DIgital/sseq/sseq/sum1bcc.v" into library work
+Analyzing Verilog file "/home/juan/Documentos/Electronica DIgital/sseq/sseq/flipflopD.v" into library work
+Analyzing Verilog file "/home/juan/Documentos/Electronica DIgital/sseq/sseq/sseq.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing VHDL file "/home/juan/Documentos/Electronica DIgital/sseq/sseq/ssepasjfsdklfaddas.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "/home/juan/Documentos/Electronica DIgital/sseq/sseq/sseq.v" Line 30: Port Qbar is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 83656 KB
+Fuse CPU Usage: 1220 ms
+Compiling module glbl
+Compiling module sum1bcc
+Compiling module flipflopD
+Compiling module sseq
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package vl_types
+Compiling architecture behavior of entity ssepasjfsdklfaddas
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 4 VHDL Units
+Compiled 4 Verilog Units
+Built simulation executable /home/juan/Documentos/Electronica DIgital/sseq/sseq/ssepasjfsdklfaddas_isim_beh.exe
+Fuse Memory Usage: 653664 KB
+Fuse CPU Usage: 1260 ms
+GCC CPU Usage: 980 ms

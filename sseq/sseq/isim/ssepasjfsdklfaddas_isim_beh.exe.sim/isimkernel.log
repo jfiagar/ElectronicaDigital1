@@ -1,0 +1,29 @@
+Command line:
+   ssepasjfsdklfaddas_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  47965
+
+Mon Oct 21 15:53:31 2019
+
+
+ Elaboration Time: 0.01 sec
+
+ Current Memory Usage: 184.201 Meg
+
+ Total Signals          : 32
+ Total Nets             : 25
+ Total Signal Drivers   : 16
+ Total Blocks           : 7
+ Total Primitive Blocks : 5
+ Total Processes        : 19
+ Total Traceable Variables  : 29
+ Total Scalar Nets and Variables : 469
+Total Line Count : 27
+
+ Total Simulation Time: 0.03 sec
+
+ Current Memory Usage: 259.703 Meg
+
+Mon Oct 21 15:53:58 2019
+

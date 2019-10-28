@@ -1,0 +1,4 @@
+verilog isim_temp "BCDtoSseg.v"
+verilog isim_temp "cautrodisplay.v"
+verilog isim_temp "tes.v"
+verilog isim_temp "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

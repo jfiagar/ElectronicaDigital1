@@ -1,0 +1,29 @@
+Command line:
+   asdfgh_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  58259
+
+Mon Oct 21 15:22:16 2019
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 184.193 Meg
+
+ Total Signals          : 26
+ Total Nets             : 26
+ Total Signal Drivers   : 17
+ Total Blocks           : 5
+ Total Primitive Blocks : 4
+ Total Processes        : 18
+ Total Traceable Variables  : 27
+ Total Scalar Nets and Variables : 467
+Total Line Count : 16
+
+ Total Simulation Time: 0.03 sec
+
+ Current Memory Usage: 259.695 Meg
+
+Mon Oct 21 15:24:02 2019
+

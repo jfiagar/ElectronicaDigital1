@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+sseq instance_name (
+    .X(X), 
+    .Y(Y), 
+    .clk(clk), 
+    .Z(Z)
+    );
+
+

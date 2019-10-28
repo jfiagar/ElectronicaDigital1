@@ -1,0 +1,5 @@
+set -tmpdir "/home/juan/Documentos/Electronica DIgital/sseq/sseq/xst/projnav.tmp"
+set -xsthdpdir "/home/juan/Documentos/Electronica DIgital/sseq/sseq/xst"
+elaborate
+-ifn flipflopD.prj
+-ifmt mixed

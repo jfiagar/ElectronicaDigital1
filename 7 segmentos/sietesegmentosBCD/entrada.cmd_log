@@ -1,0 +1,31 @@
+xst -intstyle ise -ifn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.xst" -ofn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.syr" 
+xst -intstyle ise -ifn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.xst" -ofn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.syr" 
+xst -intstyle ise -ifn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.xst" -ofn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.syr" 
+xst -intstyle ise -ifn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.xst" -ofn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.syr" 
+xst -intstyle ise -ifn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.xst" -ofn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.syr" 
+xst -intstyle ise -ifn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.xst" -ofn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.syr" 
+xst -intstyle ise -ifn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.xst" -ofn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.syr" 
+xst -intstyle ise -ifn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.xst" -ofn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.syr" 
+xst -intstyle ise -ifn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.xst" -ofn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.syr" 
+xst -intstyle ise -ifn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.xst" -ofn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sietesegmentosucf.ucf -p xc3s500e-fg320-5 "entrada.ngc" entrada.ngd  
+xst -intstyle ise -ifn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.xst" -ofn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.syr" 
+xst -intstyle ise -ifn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.xst" -ofn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sietesegmentosucf.ucf -p xc3s500e-fg320-5 "entrada.ngc" entrada.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sietesegmentosucf.ucf -p xc3s500e-fg320-5 "entrada.ngc" entrada.ngd  
+xst -intstyle ise -ifn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.xst" -ofn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.syr" 
+xst -intstyle ise -ifn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.xst" -ofn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.syr" 
+xst -intstyle ise -ifn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.xst" -ofn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.syr" 
+xst -intstyle ise -ifn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.xst" -ofn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sietesegmentosucf.ucf -p xc3s500e-fg320-5 "entrada.ngc" entrada.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sietesegmentosucf.ucf -p xc3s500e-fg320-5 "entrada.ngc" entrada.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o entrada_map.ncd entrada.ngd entrada.pcf 
+par -w -intstyle ise -ol high -t 1 entrada_map.ncd entrada.ncd entrada.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml entrada.twx entrada.ncd -o entrada.twr entrada.pcf -ucf sietesegmentosucf.ucf 
+bitgen -intstyle ise -f entrada.ut entrada.ncd 
+xst -intstyle ise -ifn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.xst" -ofn "/home/juan/Documentos/Electronica DIgital/7 segmentos/sietesegmentosBCD/entrada.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sietesegmentosucf.ucf -p xc3s500e-fg320-5 "entrada.ngc" entrada.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o entrada_map.ncd entrada.ngd entrada.pcf 
+par -w -intstyle ise -ol high -t 1 entrada_map.ncd entrada.ncd entrada.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml entrada.twx entrada.ncd -o entrada.twr entrada.pcf -ucf sietesegmentosucf.ucf 
+bitgen -intstyle ise -f entrada.ut entrada.ncd 

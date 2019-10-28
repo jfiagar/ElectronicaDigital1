@@ -1,0 +1,13 @@
+[Inputs]
+clk
+rst
+=num[7:0]=
+[Outputs]
+clk5
+led
+=sseg[0:6]=
+=an[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel cautrodisplay
+

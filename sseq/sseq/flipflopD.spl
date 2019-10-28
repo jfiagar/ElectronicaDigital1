@@ -1,0 +1,9 @@
+[Inputs]
+D
+CLK
+[Outputs]
+Q
+[BiDir]
+[ATTRIBUTES]
+VeriModel flipflopD
+

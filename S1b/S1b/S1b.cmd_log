@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "/home/juan/Documentos/Electronica DIgital/S1b/S1b/S1b.xst" -ofn "/home/juan/Documentos/Electronica DIgital/S1b/S1b/S1b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCFS1b.ucf -p xc3s500e-fg320-5 "S1b.ngc" S1b.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCFS1b.ucf -p xc3s500e-fg320-5 "S1b.ngc" S1b.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o S1b_map.ncd S1b.ngd S1b.pcf 
+par -w -intstyle ise -ol high -t 1 S1b_map.ncd S1b.ncd S1b.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S1b.twx S1b.ncd -o S1b.twr S1b.pcf -ucf UCFS1b.ucf 
+bitgen -intstyle ise -f S1b.ut S1b.ncd 
+xst -intstyle ise -ifn "/home/juan/Documentos/Electronica DIgital/S1b/S1b/S1b.xst" -ofn "/home/juan/Documentos/Electronica DIgital/S1b/S1b/S1b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCFS1b.ucf -p xc3s500e-fg320-5 "S1b.ngc" S1b.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o S1b_map.ncd S1b.ngd S1b.pcf 
+par -w -intstyle ise -ol high -t 1 S1b_map.ncd S1b.ncd S1b.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S1b.twx S1b.ncd -o S1b.twr S1b.pcf -ucf UCFS1b.ucf 
+bitgen -intstyle ise -f S1b.ut S1b.ncd 
+xst -intstyle ise -ifn "/home/juan/Documentos/Electronica DIgital/S1b/S1b/S1b.xst" -ofn "/home/juan/Documentos/Electronica DIgital/S1b/S1b/S1b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCFS1b.ucf -p xc3s500e-fg320-5 "S1b.ngc" S1b.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o S1b_map.ncd S1b.ngd S1b.pcf 
+par -w -intstyle ise -ol high -t 1 S1b_map.ncd S1b.ncd S1b.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml S1b.twx S1b.ncd -o S1b.twr S1b.pcf -ucf UCFS1b.ucf 

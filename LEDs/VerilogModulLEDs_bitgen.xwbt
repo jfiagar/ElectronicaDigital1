@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/juan/Documentos/Electronica DIgital/LEDs/VerilogModulLEDs.ncd
+OUTFILE=/home/juan/Documentos/Electronica DIgital/LEDs/VerilogModulLEDs.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=/home/juan/Documentos/Electronica DIgital/LEDs
+LICENSE=WebPack
+USER_INFO=211793471_0_0_937

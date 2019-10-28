@@ -1,0 +1,6 @@
+vhdtdtfi -lib work {/home/juan/Documentos/Electronica DIgital/sseq/sseq/sseq.v} -lang verilog -prj sseq -o sseq.spl -module sseq -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e sseq.spl {/home/juan/Documentos/Electronica DIgital/sseq/sseq/sseq.sym} 
+vhdtdtfi -lang verilog -prj sseq -o "/home/juan/Documentos/Electronica DIgital/sseq/sseq/sseq.tfi" -lib work "/home/juan/Documentos/Electronica DIgital/sseq/sseq//sseq.v" -module sseq -template /opt/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work {/home/juan/Documentos/Electronica DIgital/sseq/sseq/sseq.v} -lang verilog -prj sseq -o sseq.spl -module sseq -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e sseq.spl {/home/juan/Documentos/Electronica DIgital/sseq/sseq/sseq.sym} 
+vhdtdtfi -lang verilog -prj sseq -o "/home/juan/Documentos/Electronica DIgital/sseq/sseq/sseq.tfi" -lib work "/home/juan/Documentos/Electronica DIgital/sseq/sseq//sseq.v" -module sseq -template /opt/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

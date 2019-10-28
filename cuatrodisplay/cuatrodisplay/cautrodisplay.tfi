@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+cautrodisplay instance_name (
+    .num(num), 
+    .clk(clk), 
+    .clk5(clk5), 
+    .sseg(sseg), 
+    .an(an), 
+    .rst(rst), 
+    .led(led)
+    );
+
+

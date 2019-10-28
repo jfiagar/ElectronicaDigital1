@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "/home/juan/Documentos/Electronica DIgital/LEDs/VerilogModulLEDs.xst" -ofn "/home/juan/Documentos/Electronica DIgital/LEDs/VerilogModulLEDs.syr" 
+xst -intstyle ise -ifn "/home/juan/Documentos/Electronica DIgital/LEDs/VerilogModulLEDs.xst" -ofn "/home/juan/Documentos/Electronica DIgital/LEDs/VerilogModulLEDs.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 "VerilogModulLEDs.ngc" VerilogModulLEDs.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VerilogModulLEDs_map.ncd VerilogModulLEDs.ngd VerilogModulLEDs.pcf 
+par -w -intstyle ise -ol high -t 1 VerilogModulLEDs_map.ncd VerilogModulLEDs.ncd VerilogModulLEDs.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VerilogModulLEDs.twx VerilogModulLEDs.ncd -o VerilogModulLEDs.twr VerilogModulLEDs.pcf 
+xst -intstyle ise -ifn "/home/juan/Documentos/Electronica DIgital/LEDs/VerilogModulLEDs.xst" -ofn "/home/juan/Documentos/Electronica DIgital/LEDs/VerilogModulLEDs.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCFLEDs.ucf -p xc3s500e-fg320-5 "VerilogModulLEDs.ngc" VerilogModulLEDs.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCFLEDs.ucf -p xc3s500e-fg320-5 "VerilogModulLEDs.ngc" VerilogModulLEDs.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCFLEDs.ucf -p xc3s500e-fg320-5 "VerilogModulLEDs.ngc" VerilogModulLEDs.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VerilogModulLEDs_map.ncd VerilogModulLEDs.ngd VerilogModulLEDs.pcf 
+par -w -intstyle ise -ol high -t 1 VerilogModulLEDs_map.ncd VerilogModulLEDs.ncd VerilogModulLEDs.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VerilogModulLEDs.twx VerilogModulLEDs.ncd -o VerilogModulLEDs.twr VerilogModulLEDs.pcf -ucf UCFLEDs.ucf 
+bitgen -intstyle ise -f VerilogModulLEDs.ut VerilogModulLEDs.ncd 

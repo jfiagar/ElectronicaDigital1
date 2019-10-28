@@ -1,0 +1,30 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Oct 21 14:47:27 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "num<2>" LOCATE = SITE "K18" LEVEL 1;
+COMP "num<3>" LOCATE = SITE "K17" LEVEL 1;
+COMP "an<0>" LOCATE = SITE "F17" LEVEL 1;
+COMP "num<4>" LOCATE = SITE "L14" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "H17" LEVEL 1;
+COMP "num<5>" LOCATE = SITE "L13" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "C18" LEVEL 1;
+COMP "num<6>" LOCATE = SITE "N17" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "F15" LEVEL 1;
+COMP "num<7>" LOCATE = SITE "R17" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "led" LOCATE = SITE "J14" LEVEL 1;
+COMP "sseg<0>" LOCATE = SITE "L18" LEVEL 1;
+COMP "sseg<1>" LOCATE = SITE "F18" LEVEL 1;
+COMP "sseg<2>" LOCATE = SITE "D17" LEVEL 1;
+COMP "sseg<3>" LOCATE = SITE "D16" LEVEL 1;
+COMP "sseg<4>" LOCATE = SITE "G14" LEVEL 1;
+COMP "sseg<5>" LOCATE = SITE "J17" LEVEL 1;
+COMP "sseg<6>" LOCATE = SITE "H14" LEVEL 1;
+COMP "rst" LOCATE = SITE "B18" LEVEL 1;
+COMP "num<0>" LOCATE = SITE "G18" LEVEL 1;
+COMP "num<1>" LOCATE = SITE "H18" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

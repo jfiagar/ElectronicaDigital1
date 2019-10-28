@@ -1,0 +1,5 @@
+MO sum1bcc NULL sum1bcc.v vlg32/sum1bcc.bin 1571691678
+MO cuatrodisplay NULL cuatrodisplay.v vlg44/cuatrodisplay.bin 1571691365
+MO BCDtoSseg NULL BCDtoSseg.v vlg52/_b_c_dto_sseg.bin 1571691365
+MO sseq NULL sseq.v vlg4C/sseq.bin 1571691678
+MO flipflopD NULL flipflopD.v vlg10/flipflop_d.bin 1571691678

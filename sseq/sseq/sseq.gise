@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="sseq.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="cuatrodisplay.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="cuatrodisplay.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="cuatrodisplay.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="cuatrodisplay.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="cuatrodisplay.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="cuatrodisplay.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="cuatrodisplay.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="cuatrodisplay.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="cuatrodisplay.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="cuatrodisplay.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cuatrodisplay.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="cuatrodisplay.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="cuatrodisplay.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="cuatrodisplay.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="cuatrodisplay.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="cuatrodisplay.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="cuatrodisplay.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="cuatrodisplay.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="cuatrodisplay.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cuatrodisplay_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="cuatrodisplay_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="cuatrodisplay_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="cuatrodisplay_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="cuatrodisplay_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="cuatrodisplay_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cuatrodisplay_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cuatrodisplay_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="cuatrodisplay_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="cuatrodisplay_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cuatrodisplay_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cuatrodisplay_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="cuatrodisplay_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="cuatrodisplay_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cuatrodisplay_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="flipflopD.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="flipflopD.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="flipflopD.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="flipflopD.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="flipflopD.xst"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="pruflipo_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ssepasjfsdklfaddas_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ssepasjfsdklfaddas_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="ssepasjfsdklfaddas_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sseq.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="sseq.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="sseq.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="sseq.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="sseq.tfi"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="sseq.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1571690189" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1571690189">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571691207" xil_pn:in_ck="4463554214742828929" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1571691207">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="BCDtoSseg.v"/>
+      <outfile xil_pn:name="cuatrodisplay.v"/>
+      <outfile xil_pn:name="flipflopD.v"/>
+      <outfile xil_pn:name="pruflipo.vhd"/>
+      <outfile xil_pn:name="ssepasjfsdklfaddas.vhd"/>
+      <outfile xil_pn:name="sseq.v"/>
+      <outfile xil_pn:name="sum1bcc.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1571691138" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="6138897399049243152" xil_pn:start_ts="1571691138">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571691138" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6659983032406436270" xil_pn:start_ts="1571691138">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571690189" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="3741047672886617764" xil_pn:start_ts="1571690189">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571691207" xil_pn:in_ck="4463554214742828929" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1571691207">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="BCDtoSseg.v"/>
+      <outfile xil_pn:name="cuatrodisplay.v"/>
+      <outfile xil_pn:name="flipflopD.v"/>
+      <outfile xil_pn:name="pruflipo.vhd"/>
+      <outfile xil_pn:name="ssepasjfsdklfaddas.vhd"/>
+      <outfile xil_pn:name="sseq.v"/>
+      <outfile xil_pn:name="sum1bcc.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1571691209" xil_pn:in_ck="4463554214742828929" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6929184617341110776" xil_pn:start_ts="1571691207">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="ssepasjfsdklfaddas_beh.prj"/>
+      <outfile xil_pn:name="ssepasjfsdklfaddas_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1571691209" xil_pn:in_ck="5192711817751679743" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1300192281939043515" xil_pn:start_ts="1571691209">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="ssepasjfsdklfaddas_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1571417355" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1571417355">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571417355" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="2647868592270759453" xil_pn:start_ts="1571417355">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571417355" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3741047672886617764" xil_pn:start_ts="1571417355">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571417355" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1571417355">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571417355" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-7787006936623700581" xil_pn:start_ts="1571417355">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571417355" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1571417355">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571417355" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="5900791199612353006" xil_pn:start_ts="1571417355">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571691368" xil_pn:in_ck="-3006227751762399424" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="5488121097266373783" xil_pn:start_ts="1571691361">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="cuatrodisplay.lso"/>
+      <outfile xil_pn:name="cuatrodisplay.ngc"/>
+      <outfile xil_pn:name="cuatrodisplay.ngr"/>
+      <outfile xil_pn:name="cuatrodisplay.prj"/>
+      <outfile xil_pn:name="cuatrodisplay.stx"/>
+      <outfile xil_pn:name="cuatrodisplay.syr"/>
+      <outfile xil_pn:name="cuatrodisplay.xst"/>
+      <outfile xil_pn:name="cuatrodisplay_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1571417362" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-3195786327986327610" xil_pn:start_ts="1571417362">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571417367" xil_pn:in_ck="-2081911396642188790" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-5784330436605510329" xil_pn:start_ts="1571417362">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="cuatrodisplay.bld"/>
+      <outfile xil_pn:name="cuatrodisplay.ngd"/>
+      <outfile xil_pn:name="cuatrodisplay_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1571417375" xil_pn:in_ck="-2081911396642188789" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1309755933173654900" xil_pn:start_ts="1571417367">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="cuatrodisplay.pcf"/>
+      <outfile xil_pn:name="cuatrodisplay_map.map"/>
+      <outfile xil_pn:name="cuatrodisplay_map.mrp"/>
+      <outfile xil_pn:name="cuatrodisplay_map.ncd"/>
+      <outfile xil_pn:name="cuatrodisplay_map.ngm"/>
+      <outfile xil_pn:name="cuatrodisplay_map.xrpt"/>
+      <outfile xil_pn:name="cuatrodisplay_summary.xml"/>
+      <outfile xil_pn:name="cuatrodisplay_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1571417389" xil_pn:in_ck="3568386366849085092" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1571417375">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="cuatrodisplay.ncd"/>
+      <outfile xil_pn:name="cuatrodisplay.pad"/>
+      <outfile xil_pn:name="cuatrodisplay.par"/>
+      <outfile xil_pn:name="cuatrodisplay.ptwx"/>
+      <outfile xil_pn:name="cuatrodisplay.unroutes"/>
+      <outfile xil_pn:name="cuatrodisplay.xpi"/>
+      <outfile xil_pn:name="cuatrodisplay_pad.csv"/>
+      <outfile xil_pn:name="cuatrodisplay_pad.txt"/>
+      <outfile xil_pn:name="cuatrodisplay_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1571417389" xil_pn:in_ck="-2081911396642188921" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1571417386">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="cuatrodisplay.twr"/>
+      <outfile xil_pn:name="cuatrodisplay.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

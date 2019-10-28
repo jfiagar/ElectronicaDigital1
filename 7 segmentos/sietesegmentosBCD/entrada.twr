@@ -1,0 +1,124 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml entrada.twx entrada.ncd -o entrada.twr entrada.pcf -ucf
+sietesegmentosucf.ucf
+
+Design file:              entrada.ncd
+Physical constraint file: entrada.pcf
+Device,package,speed:     xc3s500e,fg320,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+aswd<0>        |carryo         |    9.104|
+aswd<0>        |seg<0>         |   10.356|
+aswd<0>        |seg<1>         |   10.484|
+aswd<0>        |seg<2>         |   11.076|
+aswd<0>        |seg<3>         |   10.795|
+aswd<0>        |seg<4>         |   10.023|
+aswd<0>        |seg<5>         |    9.579|
+aswd<0>        |seg<6>         |   10.391|
+aswd<1>        |carryo         |    9.160|
+aswd<1>        |seg<0>         |   10.412|
+aswd<1>        |seg<1>         |   10.540|
+aswd<1>        |seg<2>         |   11.132|
+aswd<1>        |seg<3>         |   10.851|
+aswd<1>        |seg<4>         |   10.079|
+aswd<1>        |seg<5>         |    9.635|
+aswd<1>        |seg<6>         |   10.447|
+aswd<2>        |carryo         |    7.335|
+aswd<2>        |seg<0>         |    8.975|
+aswd<2>        |seg<1>         |    9.103|
+aswd<2>        |seg<2>         |    9.695|
+aswd<2>        |seg<3>         |    9.414|
+aswd<2>        |seg<4>         |    8.642|
+aswd<2>        |seg<5>         |    8.198|
+aswd<2>        |seg<6>         |    9.010|
+aswd<3>        |carryo         |    7.328|
+aswd<3>        |seg<0>         |    9.111|
+aswd<3>        |seg<1>         |    9.239|
+aswd<3>        |seg<2>         |    9.831|
+aswd<3>        |seg<3>         |    9.550|
+aswd<3>        |seg<4>         |    8.778|
+aswd<3>        |seg<5>         |    8.334|
+aswd<3>        |seg<6>         |    9.146|
+aswu<0>        |carryo         |    9.155|
+aswu<0>        |seg<0>         |   10.407|
+aswu<0>        |seg<1>         |   10.535|
+aswu<0>        |seg<2>         |   11.127|
+aswu<0>        |seg<3>         |   10.846|
+aswu<0>        |seg<4>         |   10.074|
+aswu<0>        |seg<5>         |    9.630|
+aswu<0>        |seg<6>         |   10.442|
+aswu<1>        |carryo         |    8.279|
+aswu<1>        |seg<0>         |    9.531|
+aswu<1>        |seg<1>         |    9.659|
+aswu<1>        |seg<2>         |   10.251|
+aswu<1>        |seg<3>         |    9.970|
+aswu<1>        |seg<4>         |    9.198|
+aswu<1>        |seg<5>         |    8.754|
+aswu<1>        |seg<6>         |    9.566|
+aswu<2>        |carryo         |    7.020|
+aswu<2>        |seg<0>         |    8.776|
+aswu<2>        |seg<1>         |    8.904|
+aswu<2>        |seg<2>         |    9.496|
+aswu<2>        |seg<3>         |    9.215|
+aswu<2>        |seg<4>         |    8.443|
+aswu<2>        |seg<5>         |    7.999|
+aswu<2>        |seg<6>         |    8.811|
+aswu<3>        |carryo         |    6.662|
+aswu<3>        |seg<0>         |    8.264|
+aswu<3>        |seg<1>         |    8.392|
+aswu<3>        |seg<2>         |    8.984|
+aswu<3>        |seg<3>         |    8.703|
+aswu<3>        |seg<4>         |    7.931|
+aswu<3>        |seg<5>         |    7.487|
+aswu<3>        |seg<6>         |    8.299|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Sep 24 10:43:49 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 334 MB
+
+
+
